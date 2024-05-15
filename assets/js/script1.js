@@ -1,3 +1,5 @@
+// the testimonies  connected with google reviews
+
 const testimonialContainer = document.querySelector('.testimonial-container')
 const testimonial = document.querySelector('.testimonial')
 const userImage = document.querySelector('.user-image')
@@ -9,7 +11,7 @@ const testimonials = [
         name: 'Amanda',
         position: 'Marketing',
         photo: 'https://lh3.googleusercontent.com/a-/ALV-UjXrjwB-QTCZDIPpGSR6miLdOLScW-g9hiEuNeWuqTf-eHpf1V0=w113-h113-p-rp-mo-ba6-br100',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto voluptas aut nobis amet corporis accusamus.'
+        text: 'I am thoroughly enjoying this Mexican cuisine. The flavors are absolutely divine, and I would highly recommend that anyone who is reading this gives it a try. The food is scrumptious and the service is quick and efficient. Trust me, you will not be disappointed with the quality of the food here.'
     },
     {
         name: 'NonstopDan',
@@ -27,13 +29,13 @@ const testimonials = [
         name: 'Ken wangwana',
         position: 'Graphic Designer',
         photo: 'https://randomuser.me/api/portraits/women/43.jpg',
-        text: 'ILOVE their burritos, better than i have had anywhere in Europe... I recommend the pulled-pork ones. Great variety of toppings to \" design your own burrito".'
+        text: 'I LOVE their burritos, better than i have had anywhere in Europe... I recommend the pulled-pork ones. Great variety of toppings to \" design your own burrito".'
     },
     {
         name: 'Sasha Ho',
         position: 'Accountant',
         photo: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto voluptas aut nobis amet corporis accusamus.'
+        text: 'This was the perfect place to grab some TxMex on our last day. The food was fresh and hot! The portion size was bigger than I expected.'
     },
     {
         name: 'Veeti Seppanen',
@@ -41,6 +43,8 @@ const testimonials = [
         photo: 'https://randomuser.me/api/portraits/men/97.jpg',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto voluptas aut nobis amet corporis accusamus.'
     }
+
+    
 ]
 
 let idx = 1
