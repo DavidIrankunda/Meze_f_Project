@@ -25,14 +25,14 @@
   --davys-grey: rgb(64, 255, 0);
   --smoky-black-1: rgb(34, 63, 36);
   --smoky-black-2:rgb(32, 49, 33);
-  --smoky-black-3: rgb(172, 166, 49);
+  --smoky-black-3: rgb(18, 61, 124);
   --eerie-black-1: #58554a;
   --eerie-black-2: hsla(210, 4%, 11%, 1);
   --eerie-black-3: darkgreen;
   --eerie-black-4:rgb(32, 46, 33);
   --white: rgb(82, 172, 34);
-  --white-alpha-20: hsla(0, 0%, 100%, 0.2);
-  --white-alpha-10: hsla(0, 0%, 100%, 0.1);
+  --white-alpha-20: hsla(57, 100%, 50%, 0.2);
+  --white-alpha-10: hsla(109, 71%, 26%, 0.1);
   --black:black;
   --black-alpha-80: hsla(0, 0%, 0%, 0.8);
   --black-alpha-15: hsla(0, 0%, 0%, 0.15);
@@ -1432,8 +1432,39 @@ textarea.input-field {
 }
 
 
+/* message */
+
+.message {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--gold-crayola);
+  color: var(--smoky-black-1);
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-circle);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 4;
+}
 
 
+
+.message.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.what{
+  width: 50px;
+  height: 50px;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES

@@ -58,6 +58,7 @@ background-size: cover;
 background-color: #ddd;
 padding-bottom: 10px;
 
+
 }
 
 @media (max-width: 979px) {
@@ -93,8 +94,9 @@ h2{
 
 .gallery-block.compact-gallery .item{
   overflow: hidden;
-  margin-bottom: 0;
-  background: black;
+  margin-bottom: 15px;
+  
+  background: rgb(255, 255, 255);
   opacity: 1;
 }
 
@@ -157,7 +159,7 @@ h2{
 .hr{
   border: none;
   height: 10px;
-  background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #060b58f3 0) 0 5px;
+  background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #1a7003f3 0) 0 5px;
   background-color: #fff;
   background-position: left bottom;
   background-repeat: repeat-x;
