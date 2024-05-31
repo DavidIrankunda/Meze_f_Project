@@ -25,10 +25,10 @@
   --davys-grey: rgb(64, 255, 0);
   --smoky-black-1: rgb(34, 63, 36);
   --smoky-black-2:rgb(32, 49, 33);
-  --smoky-black-3: rgb(18, 61, 124);
+  --smoky-black-3:rgb(34, 63, 36);
   --eerie-black-1: #58554a;
   --eerie-black-2: hsla(210, 4%, 11%, 1);
-  --eerie-black-3: darkgreen;
+  --eerie-black-3: rgb(6, 83, 6);
   --eerie-black-4:rgb(32, 46, 33);
   --white: rgb(82, 172, 34);
   --white-alpha-20: hsla(57, 100%, 50%, 0.2);
@@ -186,11 +186,14 @@ body {
   height: 300vh;
 }
 
+#app{
+  min-height: 100vh;
+}
 body.loaded { overflow: overlay; }
 
-body.nav-active { overflow: hidden; }
+body.nav-active { overflow:inherit ; }
 
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar { width: 15px; }
 
 ::-webkit-scrollbar-track { background-color: transparent; }
 
@@ -1127,7 +1130,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .testi {
-  padding-block-end: 340px;
+  padding-block-end: 20px;
   position: static;
 }
 
@@ -1226,7 +1229,7 @@ textarea.input-field {
 
 .features .section-title { margin-block-end: 40px; }
 
-.feature-card { padding: 30px 20px 40px; }
+.feature-card { padding: 30px 20px 40px; border-radius: 20px;}
 
 .feature-item:nth-child(2n+1) .feature-card { background-color: var(--eerie-black-3); }
 
@@ -1268,6 +1271,7 @@ textarea.input-field {
   bottom: 0;
   width: 100%;
   padding: 35px 35px 25px;
+  border-radius: 30px;
 }
 
 .event-card .publish-date {
