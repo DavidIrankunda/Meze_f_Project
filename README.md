@@ -20,11 +20,10 @@ You can view the live version of the website here: [Meze Fresh Restaurant](https
 
 ## ⚙️ Tech Stack
 
-- **Frontend**:  
+- **Frontend**:
   - HTML5
   - CSS3 (using **Flexbox** & **Grid** for layout)
   - JavaScript (for dynamic functionality)
-  - **React** (for component-based architecture)
   - **Tailwind CSS** (for modern, responsive styling)
 - **Hosting**:  
   - Deployed on **Netlify** for fast, reliable hosting.
@@ -40,9 +39,10 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/meze-fresh-restaurant.git
-   
-👨‍💻 Contributors
-Irankunda David (Developer & Designer)
-💬 Contact
-For questions or inquiries, feel free to reach out at:
+
+## 👨‍💻 Contributors
+- Irankunda David (Developer & Designer)
+
+## 💬 Contact
+For questions or inquiries, feel free to reach out at:  
 📧 Email: irankundadavid64@gmail.com
